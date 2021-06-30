@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.submit__button
+{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    background: #15a98b;
+    font: 19px "Georgia";
+    color: #f5f5f5;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.header
+{
+    margin: 30px auto;
+    width: 260px;
+}
+
+.header__title
+{ 
+    font: 300 36px "Open Sans";
+    color: #333;
+    position: relative;
+    display: inline-block;
+}
+
+.header__title::before, 
+.header__title::after
+{
+    content: "";
+    height: 1px;
+    width: 200px;
+    background: #c4c4c4;
+    position: absolute;
+    top: 21px;
+}
+
+.header__title::before
+{
+    left: -228px;
+}
+
+.header__title::after
+{
+    right: -220px;
+}
+
+.form
+{
+    margin: 0 auto;
+    width: 540px;
+    padding-top: 22px;
+}
+
+.submit
+{
+    display: block;
+    margin-top: 46px;
+}
+
+.form__input
+{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font: 400 15px/32px "Open Sans";
+    color: #555;
+    border: 2.5px solid #c9c9c9;
+    border-radius: 3px;
+    margin: 3px 0 25px 0;
+}
+
+.form__text
+{
+    height: 150px;
+    resize: none;
+}
+
+.form__title
+{
+    font: 400 20px "Open Sans";
+    color: #333;
+    display: block;
+    position: relative;
+}
+
+.gender, 
+.country
+{
+    font: 400 18px "Open Sans";
+    color: #333;
+    padding: 0 35px 0 5px;
+}
+
+.form__select
+{
+    position: relative;
+}
+
+.country
+{
+    display: block;
+    padding: 0 0 0 16px;
+    margin-top: 4px;
+}
+
+.form__title_gender
+{
+    margin: 40px 0 5px 0;
+}
+
+
+.form__title_message
+{
+    padding-top: 36px;
+}
+
+.form__title_name::before,
+.form__title_email::before,
+.form__title_message::before
+{
+    content: "\002A";
+    color: #ee0707;
+    position: absolute;
+    left: 102px;
+}
+
+.form__title_message::before
+{
+    left: 174px;
+}
+
+.form__errors
+{
+    color: #f16464;
+    font: 400 15px "Open Sans";
+}
+
+.form__feedback
+{
+    color: #28ad3e;
+    font: 400 22px "Open Sans";
+}
+
+.form__answers
+{
+    font: 400 20px "Open Sans";
+    color: #333;
+}
